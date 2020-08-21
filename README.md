@@ -1,5 +1,5 @@
 # clothing_category_attribute_classification-with_Pytorch
-> 시각장애인을 위한 웹 쇼핑몰 개발 중 이미지 분석(파이토치 사용) - 의복 종류 및 정보 분석
+> 시각장애인을 위한 웹 쇼핑몰 개발 중 이미지 분석(토치 사용) - 의복 종류 및 정보 분석
 
 ## Installation
 
@@ -33,11 +33,13 @@
 
    - dataset_create_super.py에서 호출하여 사용함
 
-- core-evaluation/model.py
+- core-evaluation/attr_predict_demo.py
 
    - Inception Resnet V2에 SENet를 추가한 딥러닝 네트워크 모델
 
-   - 하이퍼패러미터는 학습 후 정확도에 따라 조정해야 함
+- core-evaluation/cate_predict_demo.py
+
+   - Inception Resnet V2에 SENet를 추가한 딥러닝 네트워크 모델
 
 
 ## Development setup
@@ -48,7 +50,7 @@ Framwork:
 
 Torch 1.6.0+cu101
 
-mmfashion 0.4.0 (파이토치 기반)
+mmfashion 0.4.0 (토치 기반)
 
 Dataset: Deep Fashion Database
 
