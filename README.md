@@ -19,27 +19,47 @@
 
 - setup.py
 
-   - 관련 변수 및 모듈 선언
-
-- get_img.py
-
-   - 데이터셋 생성을 위한 수퍼클래스
+   - 필수 파이썬 모듈 설치
 
 - server.py
 
-   - 의복 종류에 대한 데이터셋 생성
+   - 웹 쇼핑몰이 분석 요청할 수 있도록 소켓 통신 시작
+   
+- get_img.py
+
+   - 웹 쇼핑몰로부터 의류 사진을 얻기 위한 코드
 
 - demo/test_cate_attr_predictor.py
 
-   - dataset_create_super.py에서 호출하여 사용함
-
-- core-evaluation/attr_predict_demo.py
-
-   - Inception Resnet V2에 SENet를 추가한 딥러닝 네트워크 모델
+   - 의류 사진에 대해 의복 종류 및 정보를 분석
 
 - core-evaluation/cate_predict_demo.py
 
-   - Inception Resnet V2에 SENet를 추가한 딥러닝 네트워크 모델
+   - 의복 종류 분석
+   
+- core-evaluation/attr_predict_demo.py
+
+   - 의복 정보 분석   
+
+- data/Attr_Predict/Anno_fine/list_category_cloth.txt
+
+   - 분류할 수 있는 의복 종류는 50개
+   
+   - 현재 한글로 지정되어 있음, 필요에 따라 아래 파일들을 옮기고 이름을 변경하여 사용 가능
+   
+   - 순영어: list_cloth/list_category_cloth-eng.txt
+   
+   - 한영: list_cloth/list_category_cloth-engkor.txt
+
+- data/Attr_Predict/Anno_fine/list_attr_cloth.txt
+
+   - 분류할 수 있는 의복 정보는 26개
+   
+   - 현재 한글로 지정되어 있음, 필요에 따라 아래 파일들을 옮기고 이름을 변경하여 사용 가능
+   
+   - 순영어: list_cloth/list_attr_cloth-eng.txt
+   
+   - 한영: list_attr_cloth-engkor.txt
 
 
 ## Development setup
