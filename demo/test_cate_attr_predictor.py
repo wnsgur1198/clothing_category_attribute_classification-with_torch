@@ -22,7 +22,8 @@ def parse_args():
         '--checkpoint',
         type=str,
         help='checkpoint file',
-        default='checkpoint/CateAttrPredict/resnet/global/latest-coarse.pth')
+        #default='checkpoint/CateAttrPredict/resnet/global/latest-coarse.pth')
+        default='checkpoint/CateAttrPredict/resnet/global/latest-fine.pth')
     parser.add_argument(
         '--config',
         help='test config file path',
