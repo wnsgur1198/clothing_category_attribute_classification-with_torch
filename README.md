@@ -57,7 +57,7 @@
 
 ## Release History
 
-* 0.1.0
+* 1.0.0
     * first commit
     * 의복종류(category)와 의복정보(attribute) 분석에 대한 코드
     * 개선사항: 성능이 다소 아쉬움
